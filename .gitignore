@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# MT5 build artifacts
+*.ex5
+*.ex4
+
+# Large downloaded market data (re-run scripts/download_data.py)
+forex_bot/data/raw/*.csv
+
+# Logs / temp
+*.log
+*.tmp
